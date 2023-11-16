@@ -17,9 +17,10 @@ Create a pet
 package main
 
 import(
+	testpetstore "github.com/speakeasy-sdks/test-petstore"
 	"context"
 	"log"
-	testpetstore "github.com/speakeasy-sdks/test-petstore"
+	"net/http"
 )
 
 func main() {
@@ -61,10 +62,10 @@ List all pets
 package main
 
 import(
-	"context"
-	"log"
 	testpetstore "github.com/speakeasy-sdks/test-petstore"
+	"context"
 	"github.com/speakeasy-sdks/test-petstore/pkg/models/operations"
+	"log"
 )
 
 func main() {
@@ -107,10 +108,10 @@ Info for a specific pet
 package main
 
 import(
-	"context"
-	"log"
 	testpetstore "github.com/speakeasy-sdks/test-petstore"
+	"context"
 	"github.com/speakeasy-sdks/test-petstore/pkg/models/operations"
+	"log"
 )
 
 func main() {
